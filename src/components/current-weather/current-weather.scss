@@ -1,0 +1,51 @@
+.current-weather {
+  &__container {
+    @media only screen and (max-width: 800px) {
+      width: 80%;
+      margin: 8% auto;
+    }
+    margin: 1% auto;
+    padding: auto;
+    width: 60%;
+    border-radius: 30px;
+    border: 2px solid;
+  }
+  &__container-top {
+    @media only screen and (max-width: 800px) {
+      font-size: 30px;
+      margin: 3%;
+    }
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  &__container-center {
+    @media only screen and (max-width: 800px) {
+      font-size: 40px;
+    }
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__container-bottom {
+    @media only screen and (max-width: 800px) {
+      font-size: 15px;
+      margin: 0% 0% 20% 0%;
+    }
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 0% 0% 5% 0%;
+  }
+
+  &__container-weather-icon {
+    @media only screen and (max-width: 800px) {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
